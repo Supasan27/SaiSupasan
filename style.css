@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+}
+
+#Heroes h1 {
+  font-family: "Kanit", sans-serif;
+  color: #51d5f5;
+}
+
+#Heroes {
+  background-color: #b3f5f5;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.profile h2 {
+  color: #9edec2;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.programmer {
+  height: 200px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #9edec2;
+}
+.close {
+  font-size: 50px;
+  color: #9edec2;
+  opacity: 0.5;
+}
+
+.skills {
+  margin-top: 50px;
+  display: grid;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #9edec2;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.coding {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.coding-img {
+  margin-top: 50px;
+  justify-self: center;
+}
+
+.coding h3 {
+  font-size: 1.3rem;
+  color: #9ed6de;
+}
+
+.coding .text {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.gamer {
+  margin-top: 50px;
+  display: grid;
+}
+
+.gamer-img {
+  height: 200px;
+  justify-self: center;
+}
+
+.footer-container {
+  margin-top: 100px;
+}
